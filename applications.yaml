@@ -1453,3 +1453,14 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: Skype for Business
+  identifier:
+    kind: Exe
+    id: lync.exe
+    matching_strategy: Equals
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: lync.exe
+    matching_strategy: Equals
